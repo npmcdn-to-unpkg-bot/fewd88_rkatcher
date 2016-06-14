@@ -1,0 +1,106 @@
+
+h1 {
+  font-family: "Signika, sans-serif";
+  color:#313567;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 00;
+  border-image: url(https://newevolutiondesigns.com/images/freebies/cool-wallpaper-1.jpg) 30 round;
+  border-width: 20px;
+}
+
+.image {
+  position: relative;
+  width: 96%; 
+  border: 5px solid #ff9900;
+  border-width: 30px;
+  box-shadow: 10px 20px 2px #888888;
+}
+
+#preptime {
+  position: absolute;
+  text-align: center;
+  top: 60px;
+  left: .3px;
+  right: .5px;
+  font-family: "Helvetica, Sans-serif";
+  font-size: 35px;
+  color: white;
+  background: rgb(0,0,0);
+}
+
+.ingredients {
+  position: absolute;
+  text-align: center;
+  top: 180px;
+  left: .3px;
+  right: .5px;
+  font-family: "Helvetica, Sans-serif";
+  font-size: 35px;
+  color: white;
+  background: rgb(0,0,0);
+  padding: 1px; 
+}
+
+#red {
+  color:red;
+}
+
+ul {
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  left: .3px;
+  right: .5px;
+  font-family: "Helvetica, Sans-serif";
+  font-size: 19px;
+  color: white;
+  background: rgb(0,0,0);
+  padding: 5px;
+  line-height: 130%;
+}
+
+.firepic {
+  float: right;
+  padding: 20px;
+  margin-right: 1cm;
+  image-size: 50px 50px;
+  border: 5px solid rgb(0,0,0);
+  border-width: 25px;
+}
+
+.instructions {
+  position: relative;
+  color: solid red;
+  padding: 20px;
+  border: 5px dotted #ff0000;
+  border-width: 10px;
+  font-family: " Sans-serif";
+  font-size: 20px;
+  line-height:140%
+ }
+
+.nutrition {
+  background-image: url(http://rebeccawearrobinson.com/wp-content/uploads/5-29-13-photo.jpg);
+  background-size: 130px 90px;
+  color: white;
+  line-height: 90%;
+  padding: .1%;
+  margin-right: 1cm;
+  margin-top: 3px;
+  margin-bottom: .1px;
+}
+
+#black {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  display: block;
+  width: 250px;
+  margin-top: 1px;
+}
+
+
+  
+  
+  
