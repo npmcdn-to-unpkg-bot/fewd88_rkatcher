@@ -1,0 +1,102 @@
+body {
+font-family: 'lato', sans-serif;
+font-weight: 300;
+font-size: 20px;
+ width: 720px;
+ padding: 54px;
+ border-left: solid;
+ border-width: 6px;
+ border-color: #dddddd;
+}
+
+.topnav a {
+  color: #dddddd;
+  font-size: 21px;
+  margin: 15px;
+ /*--how to make margin start with second tag?*/
+  margin-left: 1px;
+  
+}
+
+.topnav a:hover {
+  color:black;
+}
+
+header {
+  line-height: 20px;
+}
+
+header p{
+  font-size: 25px;
+ 
+}
+
+h1 {
+  color: #cc0000;
+  font-weight:300;
+  font-size: 55px;
+}
+
+.text{
+  color:#444444;
+  line-height: 150%;
+  margin-top: 20px;
+}
+
+#date{
+  color: #cccccc;
+  font-size: 35px;
+  padding-top: 20px;
+  margin-bottom: -20px;
+}
+
+#streettitle {
+  color: black;
+  font-size: 35px;
+  margin-bottom:23px;
+}
+
+.street {
+  line-height: 24px;
+}
+
+#continues {
+  text-align: right;
+  font-size: 20px;
+  color: #cc0000;
+  font-family: 'lato',sans-serif;
+  font-weight: 600;
+  
+}
+
+#bottomlinks a{
+  display:inline-block;
+  color: #DD0000;
+  border-right: solid #bbbbbb;
+  border-right-width: 2px;
+  padding-right: 5px;
+  font-size:18px;
+}
+
+#bottomlinks a:hover {
+ color:#aa0000;
+}
+
+#copyright {
+  color: #bbbbbb;
+  font-size:18px;
+}
+
+.blogdivider {
+  border-bottom: solid #bbbbbb;
+  border-width: 1px;
+  margin-bottom: 60px;
+}
+
+img {
+  margin: auto 0;
+  /* I had to put the specific width to make it fit the width of the body. 
+  Why didnt it just take the width of the body automatically?*/
+  width: 720px;
+}
+
