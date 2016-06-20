@@ -1,0 +1,50 @@
+.container{
+	background-color: #e6e6e6;
+	margin-left: 40px;
+  margin-right: 40px;
+  padding: 15px;
+  height:420px;
+}
+
+nav {
+	background-color:black;
+  text-align:center;
+}
+
+nav a {
+
+	color: white;
+	display: inline-block;
+  font-size: 25px;
+  text-decoration:none;
+  padding-right:5px;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+
+#blue {
+  color:blue;
+
+ 
+}
+
+#green {
+  color:green;
+  padding:10px;
+
+  
+}
+
+#yellow {
+  color:yellow;
+
+ 
+}
+
+article {
+  background-color: #ff5050;
+  text-align: center;
+  padding:8px;
+  font-size: 20px;
+    margin-top: 20px;
+}
