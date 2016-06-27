@@ -12,9 +12,11 @@ font-size: 20px;
 .topnav a {
   color: #dddddd;
   font-size: 21px;
-  margin: 15px;
+  margin: 0 15px;
  /*--how to make margin start with second tag?*/
-  margin-left: 1px;
+  /*margin-left: 1px;*/
+  /*li:first-child a {}
+  a:first-of-type {}*/
   
 }
 

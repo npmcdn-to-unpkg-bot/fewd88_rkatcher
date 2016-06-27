@@ -1,0 +1,211 @@
+/* FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+*/
+
+body, html{
+width:100%;
+height:100%;
+}
+/* without code above, the image doesnt show up. why?? */
+
+header {
+
+	background-color: black;
+	border-bottom: solid yellow;
+	border-width: 5px;
+	font-family: "Merriweather",serif;
+	
+}
+
+header p{
+	color: yellow;
+	display: inline-block;
+	font-size: 35px;
+	margin-left: 20px;
+}
+
+
+
+nav li {
+    color: white;
+    text-align: right;
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    margin-right: 12px;
+}
+
+header nav {
+    float: right;
+    margin-top: 35px;
+}
+
+.brains p {
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-style:italic;
+}
+
+
+.brains {
+	background-color: #C6C6C6;
+	padding-top:10px;
+	padding-bottom:10px;
+
+}
+
+#taste {
+	color: gray;
+	text-decoration: line-through;
+}
+
+#are {
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+.pic {
+	background: url("../img/coworking.jpg") center center no-repeat;
+	background-size:cover;
+	height: 60%;
+	display:block;
+	float:left;
+}
+
+.match {
+	background-color: rgba(255,255,255,.8);
+	float:right;
+	height: 80%;
+	width: 40%;
+	margin-top: 45px;
+	margin-right: 45px;
+	margin-bottom: 45px;
+}
+
+.match p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 200%;
+    padding-left: 40px;
+    padding-right:40px;
+    font-size: 20px;
+   
+}
+
+.pic p{
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+#pp {
+    font-size: 25px;
+    padding-top: 40px;
+    padding-left: 40px;
+    font-weight: bolder;
+    font-family:"Oswald",sans-serif;
+}
+
+
+.createprofile {
+	background-color: yellow;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: clear;
+	text-align: center;
+	margin: 40px;
+	box-shadow: 5px 5px 8px #888888;
+}
+
+.createprofile p {
+	font-weight:bold;
+	font-family:"Oswald",sans-serif;
+}
+
+.left {
+	float:left;
+	display: inline-block;
+	width:33%;
+	height:30%;
+
+}
+
+.middle {
+	float:left;
+	display: inline-block;
+	width:33%;
+	height:30%;
+
+}
+
+.right {
+	float:right;
+	display: inline-block;
+	width:33%;
+	height:30%;
+}
+
+
+.bottompanes p {
+	font-size:20px;
+	font-family: "Source Sans Pro", sans-serif;
+	margin-left: 40px;
+    margin-bottom: 8px;
+	line-height: 150%;
+	font-size:25px;
+}
+
+.bottompanes aside{
+	border-right: .5px solid #C6C6C6;
+	border-height:100%;
+	margin-top:30px;
+}
+
+
+#bottomtitle {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+	margin-bottom: 0px;
+	margin-top:40px;
+}
+
+
+.bottomclick {
+	background-color: #C6C6C6;
+	text-align: center;
+	margin: 40px;
+	box-shadow: 5px 5px 8px #888888;
+	padding: 5px;
+	margin-top:8%;
+}
+
+.bottomclick p{
+	font-family:"Oswald",sans-serif;
+	font-weight:bold;
+}
+
+.copyright {
+	background-color:black;
+	color:white;
+	padding:20px;
+	font-size: 15px;
+	/*padding-right:100%;*/
+}
+
+.copyright p{
+	display: block;
+
+}
+/*hwo to make words go one one line? why cant i just do display inline block? how to make
+responsive website so that when i shrink page it
+doesnt mess everything up*/
+
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
