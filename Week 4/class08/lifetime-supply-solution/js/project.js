@@ -6,8 +6,8 @@ function calculate () {
 	var item = document.getElementById('item').value;
 	var numPerDay = parseInt(document.getElementById('num-per-day').value);
 
-	var solution = (maxAge - age) * numPerDay * 365;
-
+var solution = (maxAge - age) * numPerDay * 365;
 	document.getElementById('solution').innerHTML = solution;
 	document.getElementById('drink').innerHTML = item;
+	
 }
