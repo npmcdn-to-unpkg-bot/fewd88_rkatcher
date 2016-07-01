@@ -3,7 +3,7 @@ background color: #f0efef
 yellow: #f9e42e (links, footer)
 dark blue: #033048 (header and heading texts)
 light grey: #606161 (paragraph text)
-almost black: #121212 (footer)
+almost black: font (footer)
 
 ===== FONT ====
 Font: Open Sans (Google Font API)

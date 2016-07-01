@@ -31,10 +31,19 @@
 /*******************************************/
 
 body {
-  color: #000;
-  font-size: 55px;
+  color: #606161;
+  font-size: 24px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 300px;
+}
+
+.leftcolumn {
+  width:700px;
+}
+
+aside {
+  width:240px;
 }
 
 
@@ -49,11 +58,80 @@ body {
 }
 
 header {
+  background-color:blue;
 
 }
 
-footer {
+header p{
+  font-size:30px;
+  color:white;
+  background-color:#033048;
+}
 
+#relaxr {
+  font-weight:800px;
+  font-size:40px;
+
+}
+
+nav li{
+  display:inline-block;
+  color:yellow;
+  font-weight:600px;
+  font-size:24px;
+}
+
+h2 {
+  font-weight: 600px;
+  font-size:40px;
+}
+
+#readmore p{
+  font-weight:600px;
+  font-size:24px;
+}
+
+.sidebarul li {
+  font-size:24px;
+  font-weight:300px;
+}
+
+.abouttext p{
+font-weight:300px;
+font-size:22px;
+}
+
+#learnmore {
+  font-weight:600px;
+  font-size:22px;
+
+}
+footer {
+  background-color: #121212;
+
+}
+
+.yellowbar {
+  background-color:#f9e42e;
+}
+
+.signup {
+  background-color:#033048 ;
+}
+
+.signup p {
+font-weight:600px;
+font-size:24px;
+}
+
+.sidebarhead p  {
+  font-size: 32px;
+  font-weight: 600px;
+}
+
+#copyright p {
+  font-size:20px;
+  font-weight:300px;
 }
 
 /******************************************
