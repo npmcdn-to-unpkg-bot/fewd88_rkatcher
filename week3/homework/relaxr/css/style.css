@@ -40,11 +40,17 @@ body {
 
 .leftcolumn {
   width:700px;
+  float:left;
+  margin-right:0px;
+  margin-left:40px;
 }
 
 aside {
   width:240px;
+  float:right;
 }
+
+
 
 
 /******************************************
@@ -58,14 +64,13 @@ aside {
 }
 
 header {
-  background-color:blue;
+   background-color:#033048;
 
 }
 
 header p{
-  font-size:30px;
   color:white;
-  background-color:#033048;
+  display:inline-block;
 }
 
 #relaxr {
@@ -75,10 +80,18 @@ header p{
 }
 
 nav li{
-  display:inline-block;
   color:yellow;
   font-weight:600px;
   font-size:24px;
+  display:inline-block;
+  padding-right:5px;
+
+}
+
+nav {
+  display:inline-block;
+  float:right;
+  margin:8px;
 }
 
 h2 {
@@ -132,8 +145,16 @@ font-size:24px;
 #copyright p {
   font-size:20px;
   font-weight:300px;
+
 }
 
+#readmore {
+  float:right;
+}
+
+.section{
+  border-bottom: solid black 1px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
