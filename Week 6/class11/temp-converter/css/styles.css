@@ -1,0 +1,53 @@
+
+
+.converter {
+	border: solid black 5px;
+	height: 250px;
+	width: 50%;
+	margin-top: 150px;
+}
+
+#title {
+	text-align: center;
+	font-size: 25px;
+}
+
+#button {
+	border: solid black 2px;
+	background-color: #FFFF99;
+	height: auto;
+	width: 100px;
+	float: right;
+	margin-right: 20px;
+	text-align: center;
+	display: inline-block;
+
+}
+
+.output {
+
+	border: solid black 2px;
+	height: 30px;
+	width: 200px;
+	margin-left: 35%;
+	margin-top: -500px;
+	display: inline-block;
+
+}	
+
+#number {
+	margin-top:10px;
+	margin-left: 20px;
+
+}
+
+#f_c {
+
+margin-top: 80px;
+margin-left: 20px;
+	
+}
+
+#input {
+	display: inline-block;
+}
