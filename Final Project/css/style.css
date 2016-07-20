@@ -1,0 +1,75 @@
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	height: 100%;
+	width: 100%;
+}
+
+nav li{
+	list-style-type: none;
+	font-size: 18px;
+	display: inline-block;
+	margin-right: 3%;
+	color: rgb(0,55,119);
+	float:left;
+	opacity: none;
+
+}
+
+nav ul{
+	float:right;
+	padding-left: 0px;
+	width: 1200px;
+	text-align:center;
+}
+
+nav a {
+	text-decoration: none;
+}
+nav {
+	background: white;
+	position: absolute;
+	opacity:.4;
+	width:100%;
+}
+
+nav a:hover {
+	color: rgb(207,127,0);
+}
+
+#logo img{
+
+	width:120px;
+	height: auto;
+	opacity:1;
+}
+
+
+.rotatingimage img{
+	max-width: 100%;
+	height: auto;
+}
+
+.coardescription {
+	height:770px;
+	width:auto;
+	background: url(../images/boots.jpg) center center no-repeat;
+	background-size: cover;
+	opacity: .9;
+	color: white;
+	font-size: 50px;
+	text-align: center;
+	line-height: 1;
+}
+
+#coar p{
+	font-family: 'ff-tisa-web-pro', sans-serif;
+	text-align: center;
+}
+
+.coardescription p{
+	padding-top:100px;
+	
+}
