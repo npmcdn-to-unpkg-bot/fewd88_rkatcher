@@ -1,0 +1,16 @@
+.zach p{
+	width: 40%;
+	height: auto;
+	float: left;
+	color:red;
+}
+
+.staffpic {
+	width: 25%;
+	height: auto;
+	float: right;
+}
+
+.intro_text {
+	background-color: red;
+}

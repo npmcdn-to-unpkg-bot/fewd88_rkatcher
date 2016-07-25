@@ -1,39 +1,94 @@
 <!DOCTYPE html>
 <html>
+
+
+
 	<head>
 		<title>Cavalier Outdoor Adventure Retreat</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Sans|Mirza|Slabo+27px" rel="stylesheet">
+		<style>
+				  .carousel-inner > .item > img
+				  .carousel-inner > .item > a > img {
+				      width: 100%;
+				      height:auto;
+				      margin: auto;
+				  }
+		</style>
 	</head>
 
 	<body>
 
-	<header>
-		<nav>
-			<ul>
-				<li> <a href="">Trip Dates and Registration</a></li>
-				<li> <a href="">Packing List</a></li>
-				<li> <a href="">Orientation Leaders</a></li>
-				<li> <a href="">Professor Information</a></li>
-				<li> <a href="">Pictures</a></li>
-				<li> <a href="">Alumni Portal</a></li>
-			</ul>
+		<header>
 
-				<div id= "logo">
-					<img src="images/logo.jpg">
-				</div>
-		</nav>
-	</header>
-	<section class="rotatingimage">
-		<img src="images/mountainview.jpg" alt="Shanendoah panorama">
+		<img id = "logo" src="images/logo.jpg">
+	
+			<nav>
+				<ul>
+					<li> <a href="">Trip Dates and Registration</a></li>
+					<li> <a href="">Packing List</a></li>
+					<li> <a href="html/team.html">Orientation Leaders</a></li>
+					<li> <a href="">Pictures</a></li>
+					<li> <a href="">Alumni Portal</a></li>
+				</ul>
 
-	<section class="coardescription">
-		<p id="coar"> 3 days. 5 hikes. 1 Cabin. 10 new friends </p>
-		<p> COAR </p>
+			</nav>
+
+		</header>
+
+		<!-- Rotating Carousel-->
+
+		<section class = "rotatingimage">
+			<!--<h1> Cavalier Outdoor Adventure Retreat </h1>
+			-->
+
+			<div class = "carousel" class="carousel slide"> 
+
+			<!-- Indicators -->
+		    <ol class="carousel-indicators">
+		      <li class ="item1 active"></li>
+		      <li class="item2"></li>
+		      <li class="item3"></li>
+		      <li class="item4"></li>
+		    </ol>
+
+		<!-- Add content -->
+		 <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+	        	<img id = "carousel-pic" src="images/mountainview.jpg" alt = "Mountain View">
+	      	</div>
+
+      		<div class="item">
+        		<img id = "carousel-pic" src="images/rock_scramble2.jpg" alt="Rock Scramble">
+      		</div>
+
+      		<div class="item">
+        		<img id = "carousel-pic" src="images/group_photo.jpg" alt="COAR group photo">
+      		</div>
+
+      		<div class="item">
+        		<img id = "carousel-pic" src="images/deer.jpg" alt="Deer">
+      		</div>	
+   		 </div>
+
+    <!-- Left and right controls -->
+		 <a class="left carousel-control" href="#myCarousel" role="button">
+      		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      		<span class="sr-only">Previous</span>
+    	</a>
+    	<a class="right carousel-control" href="#myCarousel" role="button">
+	      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	      <span class="sr-only">Next</span>
+    	</a>
+  		</div>
 
 	</section>
 
 	<section class="aboutcoar">
+
+		<img src="images/picture_page/tree-light.jpg" id="treebackground">
+
 		<div>
 			<p id = "longdescription">
 			The University of Virginia's Cavalier Outdoor Adventure Retreat (COAR) is a unique three-day orientation that takes incoming first years on a camping trip to Shenandoah National Park.  COAR attendees will get the chance to hike to waterfalls, enjoy scenic mountain views, and stay in a <span id="primitive"> primitive </span> PATC cabin in a secluded backcountry setting. A fun, safe, and memorable trip, COAR seeks facilitiate life-long friendships between first year students and allow them to develop a close "family" before matriculating to college.</p>
@@ -53,15 +108,15 @@
 
 	<p> Look mom! We're in the news! </p>
 		
-		<div>
+		<div id = "news">
 		<p> Intramural Rec Sports</p>
 		</div>
 
-		<div>
+		<div id = "news">
 		<p>UVA Today</p>
 		</div>
 
-		<div>
+		<div id = "news">
 		<p> Blah</p>
 			
 		</div>
@@ -71,15 +126,17 @@
 	</section>
 
 	<section class="itinerary">
+
+	 <span class="glyphicon glyphicon-map-marker"> </span>
 		
 		<p id="explore_route">
 		Explore the Route
 		
 		<div class ='day1'>
-			Day 1: COAR will begin at 5 PM.   You'll meet your instructors at the Outdoor Recreation Center located at 119 Emmet St. N, next to the Cavalier Inn. Staff will check over equipment, check out any supplemental gear you need (per packing list), and help start the process of getting to know the others in your group.  Dinner is provided and you'll spend this first evening at Slaughter Recreation Center. Available activities include ping-pong, raquet-ball, cards, etc. 
+			Day 1: COAR will begin at 5 PM.   You'll meet your instructors at the Outdoor Recreation Center located at 119 Emmet St. N, next to the Cavalier Inn. Staff will check over equipment, check out any supplemental gear you need (per packing list), and help start the process of getting to know the others in your group.  Dinner is provided and you'll spend this first evening at Slaughter Recreation Center. Available activities include ping-pong, raquet-ball, volleyball, cards, etc. 
 		</div>
 
-		<div class="day2"> Day 2: After breakfast, the group will depart for Shenandoah National Park where you'll do a short scenic hike before lunch.  In the afternoon, you'll hike to the PATC cabin where you’ll be spending the next two nights. The group will set-up camp, cook dinner, and explore the area. Other activities include playing cards, reading, journaling, relaxing, and hanging out with the other COAR attendees. </div>
+		<div class="day2"> Day 2: After breakfast, the group will depart for Shenandoah National Park where you'll do a short scenic hike before lunch.  In the afternoon, you'll hike to the PATC cabin where you’ll be spending the next two nights. The group will set-up camp, cook dinner, and explore the area. </div>
 
 		<div class = "day3"> Day 3: You'll enjoy a longer hike with scenic views, creeks, and waterfalls.  This hike will be approximately 8 miles long and will vary depending on which PATC cabin your group is staying in (Corbin or Doyles).  You'll hike at an enjoyable pace to make this the main event of the day, spend time at waterfalls, etc.  The hike will be followed by a big dinner back at camp, as well as stargazing and a campfire (if weather permits).</div>
 
@@ -90,10 +147,19 @@
 	</section>
 
 	<section class="aboutpage">
-		
 
 
 	</section>
+	
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/app.js"> </script>
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+<!-- </section>
 		
 		<video controls loop width="320" height="240" autoplay>
 			
@@ -101,7 +167,10 @@
 		</video>
 
 	</section>
+
+	!--> 
 		
+
 
 
 	</body>
