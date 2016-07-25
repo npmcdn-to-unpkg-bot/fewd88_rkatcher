@@ -29,7 +29,8 @@ header {
 }
 
 nav {
-	float:right;
+	margin-left: 20%;
+
 
 }
 
@@ -39,17 +40,17 @@ nav ul {
 }
 
 #logo {
-	width: 10%;
+	width: 9%;
 	height: auto;
 	float: left;
 	position: absolute;
+	z-index: 1;
 
 }
 nav a {
 	font-size: 20px;
 	margin-right: 3%;
 	color: rgb(0,55,119);
-	float:right;
 
 
 
@@ -71,10 +72,14 @@ nav li {
 
 
 .rotatingimage {
-	border-bottom: 4px solid;
+	border-bottom: 320px solid;
 	border-color: rgb(255, 51, 0);;
 }
 
+#treebackground {
+	width: 100%;
+	height: auto;
+}
 #treebackground img {
 	max-width: 100%;
 	height: auto;

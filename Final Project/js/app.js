@@ -26,8 +26,5 @@ $(document).ready (function () {
         $(".carousel").carousel(2);
     });
 
-    $('.item4').click (function() {
-        $(".carousel").carousel(3);
-    });
-
+  
 });
