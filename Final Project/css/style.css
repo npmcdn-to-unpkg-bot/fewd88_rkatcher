@@ -5,6 +5,7 @@ body {
 	font-weight: 700;
 	height: 100%;
 	width: 100%;
+	font-size: 16px;
 
 }
 
@@ -16,9 +17,9 @@ header {
 
 nav {
 	margin-left: 15%;
-	margin-top: 1.5%;
-
-
+	position: absolute;
+	z-index: 1;
+	
 
 }
 
@@ -28,7 +29,7 @@ nav ul {
 }
 
 #logo {
-	width: 9%;
+	width: 11%;
 	height: auto;
 	float: left;
 	position: absolute;
@@ -36,11 +37,7 @@ nav ul {
 
 }
 
-nav a {
-	font-size: 20px;
-	margin-right: 5%;
-	color: rgb(0,55,119);
-}
+
 
 nav a:hover {
 	background-color: rgb(255, 51, 0);
@@ -50,35 +47,15 @@ nav a:hover {
 
 nav li {
 
+	font-size: 20px;
+	margin-right: 5%;
+	color: rgb(0,55,119);
 	text-decoration: none;
 	display: inline;
 	vertical-align: middle;
 	line-height: 90%;
 
 
-}
-
-
-.aboutcoar {
-	width: 100%;
-	height: 680px;
-	background-color: rgb(255, 51, 0);
-
-}
-	
-#longdescription {
-	color:white;
-	border: solid white 3px;
-}
-
-#treebackground {
-	width: 100%;
-	height: auto;
-}
-
-#tree {
-	max-width: 100%;
-	height: 500px;
 }
 
 #carousel-pic img{
@@ -88,30 +65,193 @@ nav li {
 }
 
 .carousel-inner{
-	height:660px;
+	height:700px;
+	position: relative;
 
+}
+
+#panel {
+	margin-right: 3%;
+}
+
+.aboutcoar {
+	width: 100%;
+	height: 690px;
+	padding-top: -1%;
+}
+
+
+.lakebackground {
+	width: 100%;
+	height: 690px;
+}
+
+.lakebackground {
+	background: url('../images/lakepic2.png') no-repeat;
+	background-position: 0px, 200px;
+	background-size: cover;
+	 content: ' ';
+    z-index: 1;
+    opacity: 0.4;
+    position: absolute;
 }
 
 .aboutcoar h1 {
-	font-size:200px;
-	color: white;
+	font-size:11em;
+	color: #0F1742;
 	font-style: bold;
 	text-align: center;
-	margin-top: 0;
+	z-index: 2;
+	position: relative;
+	margin-top: 0%;
+	padding-top: 5%;
+}
+	
+
+
+#longdescription {
+	color:#0F1742;
+	border: solid #0F1742 3px;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 1.4em;
+    padding: 2%;
+    z-index: 1;
+    position: relative;
+    font-family: 'ff-tisa-web-pro', Times, serif;
+
 }
 
 
- #rockpic img{
- 	object-position: ;
- }
 
-#news {
-	background-color:red;
-	width:25%;
+/* Three boxes */
+
+.calltoaction {
+	width:100%;
 	height: 100%;
-	display: inline-block;
-	margin-right: 5%;
+	background-color: #0F1742;
 }
+
+.action {
+  height: 22em;
+  padding: 0;
+  width: 25.33333%;
+  float: left;
+  background-color: pink;
+  margin-left: 6%;  
+  margin-top: 12%;
+  opacity: .8;
+
+}
+
+
+
+.text {
+  color:white;
+  font-size: 1.5em; 
+  font-family: 'ff-tisa-web-pro', Times, serif;
+}
+
+#heading {
+  padding-top: 15%;
+  text-align: center; 
+  opacity:1;
+  z-index: 4;
+}
+
+#action1 {
+	
+background-image: url('../images/uva.jpg');
+background-repeat: no-repeat;
+background-position: center ;
+background-size: cover;
+
+}
+
+#action2 {
+
+background-image: url('../images/rock_scramble.jpg');
+background-repeat: no-repeat;
+background-position: center ;
+background-size: cover;
+
+
+}
+
+#action3{
+
+background-image: url('../images/outdoor rec.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+
+}
+
+#hidden {
+position:absolute;
+-webkit-transform: scale(0);
+transform: scale(0);
+  font-size: .4em;
+  width: 16%;
+  text-align: center;
+  margin-left:2%;
+ 
+}
+
+.text {
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  margin-top: 2.5%;
+  border: solid #FFF 4px;
+}
+
+#action1:hover #hidden {
+  -webkit-transform: scale(1.3);
+transform: scale(1.3);
+}
+
+
+
+.action:hover{
+  background-color: #ff6600;
+  opacity:.7;
+  z-index: 10;
+
+}
+
+
+#action2:hover #hidden {
+  -webkit-transform: scale(1.3);
+transform: scale(1.3);
+  
+}
+
+#action3:hover #hidden {
+  -webkit-transform: scale(1.3);
+transform: scale(1.3);
+ 
+}
+
+#hidden {
+-webkit-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+
+}
+
+.action {
+  -webkit-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+}
+
+.action .btn {
+	width: auto;
+    height: auto;
+    display:inline-block;
+}
+
+/* End of Three boxes */
+
 
 /* Testimonial button */
 .box-1 {
@@ -130,7 +270,8 @@ nav li {
 
 .box-1 {
   margin-top: 0;
-  background-color: #FF6766; }
+
+}
 
 .btn {
 	line-height: 50px;
@@ -140,6 +281,7 @@ nav li {
 	cursor: pointer;
   margin: auto;
   margin-top: 2.5%;
+
   
   
 }
@@ -148,9 +290,18 @@ nav li {
 	color: #FFF;
 	transition: all 0.3s;
 	position: relative;
+	background-color: #ff6600;
+	z-index: 1;
+
 }
+
 .btn-one span {
 	transition: all 0.6s;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 50%;
+
+
 }
 .btn-one::before {
   content: '';
@@ -165,7 +316,7 @@ nav li {
 	border-bottom-width: 1px;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	border-top-color: rgba(255,255,255,0.5);
+	border-top-color: rgba(black);
 	border-bottom-color: rgba(255,255,255,0.5);
 	transform: scale(0.1, 1);
 }
@@ -184,14 +335,25 @@ nav li {
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	transition: all 0.3s;
-	background-color: rgba(255,255,255,0.1);
 }
 .btn-one:hover::after {
 	opacity: 0;	
 	transform: scale(0.1, 1);
 }
 
+.btn-one:hover {
+	background-color: rgb(255, 204, 102);
+	opacity: 1;
+}
+
+/* End of Testimonial button */
 
 
+
+/* Itinerary */
+
+
+.itinerary {
+	background-color: white;
+}
 

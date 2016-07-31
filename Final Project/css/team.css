@@ -1,16 +1,59 @@
-.zach p{
-	width: 40%;
-	height: auto;
-	float: left;
-	color:red;
-}
 
-.staffpic {
-	width: 25%;
-	height: auto;
-	float: right;
-}
 
 .intro_text {
-	background-color: red;
+	background-image: url("../images/hiking.jpg");
+
 }
+
+.container {
+	width: 100%;
+	height: auto;
+}
+
+#counselor { 
+margin-top: 10%; 
+
+}
+
+#lefttext{
+	float: left;
+	width: 40%;
+	height: auto;
+	margin: auto;
+	line-height: 1.8;
+
+}
+
+#righttext{
+	float: left;
+	width: 40%;
+	height: auto;
+	margin: auto;
+	line-height: 1.8;
+
+}
+
+
+
+
+
+#rightcounselorpic{
+	float:left ;
+	width: 30%;
+	height: 45%;
+	object-fit: cover;
+	margin: auto;
+	border-radius: 70%;
+}
+
+#leftcounselorpic{
+	float:left;
+	width: 30%;
+	height: 45%;
+	border-radius: 70%;
+	object-fit: cover;
+	margin: auto;
+
+}
+
+

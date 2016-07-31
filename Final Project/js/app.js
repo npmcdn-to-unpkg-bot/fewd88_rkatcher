@@ -20,6 +20,8 @@ $(document).ready (function () {
 
     $(".item2").click(function() {
         $(".carousel").carousel(1);
+        $('#li').css('color','white');
+
     });
 
     $(".item3").click(function() {
