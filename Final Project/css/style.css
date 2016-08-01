@@ -121,6 +121,7 @@ nav li {
 	position: relative;
 	margin-top: 0%;
 	padding-top: 5%;
+	font-family: 'Lato', sans-serif;
 }
 	
 
@@ -134,7 +135,7 @@ nav li {
     padding: 2%;
     z-index: 1;
     position: relative;
-    font-family: 'ff-tisa-web-pro', Times, serif;
+    font-family: 'Lato', Times, serif;
 
 }
 
@@ -327,6 +328,7 @@ transition: all 0.7s ease-in-out;
 	font-size: 1.5em;
 	text-align: center;
 	margin-top: 50%;
+	font-family: 'Lato', sans-serif;
 
 
 }
@@ -349,6 +351,7 @@ transition: all 0.7s ease-in-out;
 }
 .btn-one:hover span {
 	letter-spacing: 2px;
+	font-family: 'Lato', sans-serif;
 }
 .btn-one:hover::before {
 	opacity: 1;	
@@ -382,6 +385,7 @@ transition: all 0.7s ease-in-out;
 
 .itinerary {
 	background-color: #0F1742;
+	width: 100%;
 }
 
 .descriptions {
@@ -447,7 +451,7 @@ transition: all 0.7s ease-in-out;
 
 
   #Map {
-  		width:550px;
+  		width:40%;
         height:400px;
         float:left;
         display:inline-block;
