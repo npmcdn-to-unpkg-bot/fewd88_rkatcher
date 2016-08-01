@@ -1,6 +1,7 @@
 
 $(document).ready (function () {
 
+  
 
 	// Activate Carousel
     $(".carousel").carousel({interval: false});
@@ -28,5 +29,18 @@ $(document).ready (function () {
         $(".carousel").carousel(2);
     });
 
+
+var $hamburger = $(".hamburger");
+  $hamburger.on("click", function(e) {
+    $hamburger.toggleClass("is-active");
+    // Do something else, like open/close menu
+  });
+    
+    /*$('#right-menu').sidr({
+      name: 'sidr-right',
+      side: 'right' 
+});*/
   
+
+
 });

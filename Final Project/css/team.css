@@ -1,30 +1,30 @@
 
 
+body {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+}
 .intro_text {
-	background-image: url("../images/hiking.jpg");
-
+	width: 100%;
+	height: 200px;
+	background-color: rgb(255, 80, 80);
+	text-align: center;
+	color:white;
+	font-size: 1.4em;
+	box-sizing: border-box 
+	margin-top:0%;
+	padding-top: 2%;
 }
 
 .container {
 	width: 100%;
 	height: auto;
-}
-
-#counselor { 
-margin-top: 10%; 
 
 }
 
-#lefttext{
-	float: left;
-	width: 40%;
-	height: auto;
-	margin: auto;
-	line-height: 1.8;
 
-}
-
-#righttext{
+#text {
 	float: left;
 	width: 40%;
 	height: auto;
@@ -34,26 +34,42 @@ margin-top: 10%;
 }
 
 
-
-
-
-#rightcounselorpic{
-	float:left ;
-	width: 30%;
-	height: 45%;
-	object-fit: cover;
-	margin: auto;
-	border-radius: 70%;
-}
-
-#leftcounselorpic{
+#picture {
 	float:left;
 	width: 30%;
 	height: 45%;
-	border-radius: 70%;
+	border-radius: 50%;
 	object-fit: cover;
 	margin: auto;
-
 }
 
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
 
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+}

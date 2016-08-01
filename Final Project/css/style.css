@@ -1,11 +1,16 @@
 
 
+
+
+
+
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	height: 100%;
 	width: 100%;
 	font-size: 16px;
+
 
 }
 
@@ -14,6 +19,9 @@ body {
 header {
 	overflow: auto;
 }
+
+
+
 
 nav {
 	margin-left: 15%;
@@ -39,11 +47,11 @@ nav ul {
 
 
 
-nav a:hover {
+/*nav a:hover {
 	background-color: rgb(255, 51, 0);
 	text-decoration:none;
 
-}
+} */
 
 nav li {
 
@@ -73,6 +81,14 @@ nav li {
 #panel {
 	margin-right: 3%;
 }
+
+.carousel-inner > .item > img
+				  .carousel-inner > .item > a > img {
+				      width: 100%;
+				      height:auto;
+				      margin: auto;
+				  }
+				  
 
 .aboutcoar {
 	width: 100%;
@@ -135,28 +151,30 @@ nav li {
 .action {
   height: 22em;
   padding: 0;
-  width: 25.33333%;
+  width: 28.33333%;
   float: left;
-  background-color: pink;
-  margin-left: 6%;  
+  margin-left: 4%;  
   margin-top: 12%;
-  opacity: .8;
+ 
 
 }
 
 
 
 .text {
-  color:white;
-  font-size: 1.5em; 
-  font-family: 'ff-tisa-web-pro', Times, serif;
+  color: white;
+    font-size: 1.7em;
+    font-family: 'futura-pt', Helvetica, Arial, sans-serif;
+
 }
 
 #heading {
+color:white;
   padding-top: 15%;
   text-align: center; 
   opacity:1;
   z-index: 4;
+  font-family: 'futura-pt', Helvetica, Arial, sans-serif;
 }
 
 #action1 {
@@ -165,8 +183,8 @@ background-image: url('../images/uva.jpg');
 background-repeat: no-repeat;
 background-position: center ;
 background-size: cover;
-
 }
+
 
 #action2 {
 
@@ -194,7 +212,7 @@ transform: scale(0);
   font-size: .4em;
   width: 16%;
   text-align: center;
-  margin-left:2%;
+  margin-left:4%;
  
 }
 
@@ -203,15 +221,19 @@ transform: scale(0);
   width: 90%;
   margin: auto;
   margin-top: 2.5%;
-  border: solid #FFF 4px;
+
 }
 
 #action1:hover #hidden {
-  -webkit-transform: scale(1.3);
+ -webkit-transform: scale(1.3);
 transform: scale(1.3);
+opacity: 1;
 }
 
 
+.action:hover .text{
+	  border: solid #FFF 4px;
+}
 
 .action:hover{
   background-color: #ff6600;
@@ -237,6 +259,11 @@ transform: scale(1.3);
 -webkit-transition: all 0.7s ease-in-out;
 transition: all 0.7s ease-in-out;
 
+}
+
+.text {
+	-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
 }
 
 .action {
@@ -354,6 +381,89 @@ transition: all 0.7s ease-in-out;
 
 
 .itinerary {
-	background-color: white;
+	background-color: #0F1742;
 }
+
+.descriptions {
+	width: 60%;
+	height: auto;
+	background-color:pink;
+	float:right;
+
+}
+
+
+
+.days {
+	width: 50%;
+	height: 200px;
+	background-color:green;
+	float: right;
+
+}
+
+#daynumber {
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 10%;
+}
+
+
+#day1 {
+	background-image: url('../images/picture_page/volleyball.jpg');
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: cover;
+}
+
+#day2 {
+	background-image: url('../images/picture_page/cooking.jpg');
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: cover;
+
+}
+
+
+
+#day3 {
+	background-image: url('../images/picture_page/swimming 2.jpg');
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: cover;
+
+}
+
+#day4 {
+
+	background-image: url('../images/picture_page/group pic 3.jpg');
+	background-repeat: no-repeat;
+	background-position: center ;
+	background-size: cover;
+
+
+}
+
+
+
+  #Map {
+  		width:550px;
+        height:400px;
+        float:left;
+        display:inline-block;
+        
+    }
+    .gm-style-iw * {
+        display: inline-block;
+        width: 100%;
+    }
+    .gm-style-iw h4, .gm-style-iw p {
+        margin: 0;
+        padding: 0;
+    }
+    .gm-style-iw a {
+        color: #4272db;
+    }
+
+
 
