@@ -167,5 +167,146 @@ body {
 
 }
 
+@media (max-width: 1196px) {
+
+	.christina #name{
+   overflow: auto;
+}
+
+
+	}
+
+	@media (max-width: 991px) {
+
+	#picture {
+	height: 400px;
+    width: 360px;
+    border-radius: 100%;
+}
+
+	#text #name {
+		font-size: 100px;
+	}
+
+	#text .righttext{
+		font-size: 1.2em;
+	}
+
+	#text .lefttext{
+		font-size: 1.2em;
+	}
+
+	#text #name {
+		font-size: 100px;
+	}
+
+
+
+	}
+
+	@media (max-width: 766px) {
+
+	#text .righttext{
+		width: 50%;
+	}
+
+	#text .lefttext{
+		width: 50%;
+	}
+
+
+	}
+
+	@media (max-width: 766px) {
+
+	#meetleaders {
+	font-size: 50px;
+    margin-top: 10%;
+	}
+
+	#counselor #text {
+		margin-left:2%;
+	}
+
+
+	}
+
+	@media (max-width: 730px) {
+
+	#text .righttext{
+		font-size: 1.1em;
+	}
+
+	#text .lefttext{
+		font-size: 1.1em;
+	}
+
+	#picture {
+	height: 300px;
+    width: 280px;
+    border-radius: 100%;
+
+
+}
+
+	#text #name {
+		font-size: 90px;
+	}
+
+
+	}
+
+
+
+@media (max-width: 594px) {
+
+.christina #text #name {
+		font-size: 80px;
+	}
+
+}
+
+@media (max-width: 594px) {
+
+	#text .righttext{
+		width: 100%;
+
+	}
+
+	#text .lefttext{
+		width: 100%;
+
+	}
+	
+
+.zach #picture {
+		margin-top: 0;
+	}
+
+.brady #picture {
+		margin-top: 0;
+	}
+
+.joe #picture {
+		margin-top: 0;
+	}
+}
+
+
+@media (max-width: 594px) {
+	#text #name { 
+		float: left;
+
+}
+
+.linda #name {
+	position: absolute;
+}
+
+.linda #picture {
+	margin-top: 25%;
+}
+}
+
 
 

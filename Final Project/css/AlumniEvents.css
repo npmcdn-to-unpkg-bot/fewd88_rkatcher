@@ -10,8 +10,15 @@ body #title {
     margin-top: 1%;
     margin-bottom: 1%;
     color: black;
+    display: inline-block;
+    float: left;
 }
-
+#facebook {
+	display:inline-block;
+	float: right;
+	margin-right: 5%;
+	margin-top: 2%;
+}
 #calendarTitle {
 	display:none;
 }

@@ -12,8 +12,12 @@ $(document).ready (function () {
 
 
     $('.row').click(function () {
-    $('.wrapper').css('display','none');
-    $(this).find('.wrapper').slideToggle();
+    $('.wrapper').removeClass('justclicked');
+    $(this).find('.wrapper').addClass('justclicked');
+    $('.justclicked').slideToggle();
+    $('.wrapper:not(.justclicked)').hide();
+
+
     });
 
 
