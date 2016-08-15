@@ -1,0 +1,203 @@
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #D7CDC4;
+}
+
+body #title {
+	font-size: 80px;
+    font-family: 'Londrina Outline', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: black;
+    display: inline-block;
+    float: left;
+}
+
+
+.calendar {
+	display:inline-block;
+	float: left;
+}
+
+.calendardiv {
+	height: 500px;
+	display: inline-block;
+	float: left;
+}
+
+.homeicon {
+	display:inline-block;
+	float: right;
+	margin-right: 5%;
+	margin-top: 2%;
+	z-index: 1000;
+	height: 80px; 
+    margin-top: 1%;
+    margin-right: 3%;
+}
+
+#calendarTitle {
+	display:none;
+}
+
+#rightpanel {
+
+	float: right;
+    width: 35%;
+    height: 600px;
+    border: solid #0F1742 2px;
+  	margin-right: 1%;
+}
+
+#rightpanel img {
+	width: 100%;
+	height: auto;
+	object-fit:cover;
+}
+
+#rightpanel p {
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    font-weight: 400px;
+    width: 90%;
+    margin-left: 7%;
+    margin-top: 9%;
+    font-size: 22px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 891px) {
+
+
+
+iframe {
+	width: 100%;
+}
+
+#rightpanel {
+
+	width: 100%;
+	height: 332px;
+}
+
+#rightpanel img {
+	width: 50%;
+	object-fit:cover;
+	float: left;
+	height: 332px;
+}
+
+#rightpanel p {
+    width: 40%;
+    margin-right: 3%;
+    font-size: 22px;
+    float: right;
+}
+
+
+.homeicon {
+
+	height: 60px; 
+ 
+}
+
+body #title {
+	font-size: 60px;
+}
+
+
+}
+
+@media (max-width: 689px) {
+
+iframe {
+	width: 100%;
+	height: 500px;
+}
+
+#rightpanel img {
+	width: 50%;
+	object-fit:cover;
+	float: left;
+	height: 332px;
+}
+
+#rightpanel img {
+	width: 100%;
+	height: 200px;
+}
+
+#rightpanel p {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 0%;
+}
+
+
+
+
+	}
+
+
+	@media (max-width: 629px) {
+
+		body #title {
+	font-size: 50px;
+
+}
+	.homeicon {
+
+	height: 50px; 
+ 
+}
+
+
+
+
+	}
+
+
+	@media (max-width: 584px) {
+
+		body #title {
+	font-size: 45px;
+
+}
+
+	.homeicon {
+
+	height: 45px; 
+
+
+	}
+
+	#rightpanel {
+		margin-left: 1%;
+	}
+
+	#rightpanel p {
+
+		margin-left: 1%;
+	}
+
+	#rightpanel img {
+		padding-left: 1%;
+
+	}
+
+	#rightpanel p {
+    font-size: 15px;
+
+}
+
+	#rightpanel {
+	width: 98%;
+}
+
+
+
+	}

@@ -1,0 +1,61 @@
+.menu-link {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 1.5em;
+}
+
+.menu-link:link,
+.menu-link:visited {
+  color: #fff;
+  background: rgba(0, 0, 0, .4);
+  border-radius: 4px;
+  padding: .2em .4em;
+}
+
+.menu-link:hover,
+.menu-link:active {
+  color: #25B89A;
+  background: rgba(0, 0, 0, .6);
+}
+
+/*
+Nav Panel
+======================================
+*/
+
+.panel {
+  background: #2C3E50;
+  z-index: 9999;
+  position: fixed;
+  left: -15.625em; /*or width of your navigation panel*/
+  width: 15.625em; /*should match the above value*/
+}
+
+.panel ul {
+  border-top: 2px solid #34495D;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.panel a {
+  display: block;
+  border-bottom: 2px solid #34495D;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.panel a:link,
+.panel a:visited {
+  color: #fff;
+}
+
+.panel a:hover,
+.panel a:active {
+  background: #25B89A;
+}
+
+.nav-icon {
+  margin-right: 6px;
+}
